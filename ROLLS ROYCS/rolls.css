@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+/*font-family: 'Playfair Display', serif;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Titillium Web', sans-serif;*/
+.front{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 44, 61);
+}
+.upper img{
+    width: 5%;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.upper h1{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+}
+.menu ul{
+    margin-left: 400px;
+    margin-right: 600px;
+}
+.menu ul li{
+    list-style: none;
+    display: flex;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    margin-left: 60px;
+    position: relative;
+    top: 55px;
+    left: 70px;
+    font-size: 14px;
+}
+.menu ul li a:hover{
+    color: rgb(172, 130, 54);
+}
+.menu img{
+    width: 1.5%;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    border: 1.5px white solid;
+    padding: 5px 7px;
+}
+.line{
+    position: absolute;
+    top: 0px;
+    left: 850px;
+    width: 150px;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.line2{
+    position: absolute;
+    top: 0px;
+    left: 1010px;
+    width: 20px;
+    height: 100vh;
+    background-color: aliceblue; 
+}
+.line3{
+    position: absolute;
+    top: 0px;
+    left: 1040px;
+    width: 10px;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.logos ul{
+    position: absolute;
+    left: 855px;
+}
+.logos ul li{
+    list-style: none;
+}
+.logos ul li img{
+    width: 120%;
+    height: 30vh;
+    display:list-item;
+    margin-top: 10px;
+}
+#carimg{
+    width: 60%;
+    z-index: 100%;
+    transform: scaleX(1);
+    position: absolute;
+    left: 490px;
+    top: 100px;
+}
+.content h1{
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 250px;
+    left: 60px;
+}
+.content p{
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    margin-right: 800px;
+    position: absolute;
+    top: 340px;
+    left: 60px;
+}
+.content button{
+    position: absolute;
+    top: 430px;
+    left: 60px;
+    padding: 10px 60px;
+    font-size: 14px;
+    border-style: none;
+    background-color:rgb(172, 130, 54);
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+}
+#specification{
+    width: 1.5%;
+    position: absolute;
+    left: 635px;
+    top: 150px;
+    border: 1.5px white solid;
+    padding: 8px 8px;
+    border-radius: 50%;
+}
+.final p{
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    position: absolute;
+    left: 680px;
+    top: 150px;
+    font-size: 15px;
+    margin-right: 40%;
+}
+.final p span{
+    color: rgb(172, 130, 54);
+}
+#arrow1{
+    width: 2%;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 600px;
+    left: 50px;
+}
+#arrow2{
+    width: 2%;
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    color: black;
+}
+.line4{
+    width: 6%;
+    height: 2px;
+    position: absolute;
+    top: 612px;
+    left: 150px;
+    background-color: rgb(238, 238, 238);
+}
+#num{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 596px;
+    left: 100px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#num1{
+    color: rgb(119, 119, 119);
+    font-size: 30px;
+    position: absolute;
+    top: 596px;
+    left: 250px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#soc{
+    width: 3%;
+    position: absolute;
+    right: 50px;
+    top: 600px;
+}
+#soc1{
+    width: 3%;
+    position: absolute;
+    right: 100px;
+    top: 600px;
+}
+#scroll{
+    position: absolute;
+    top: 600px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#nextdesgin{
+    color: white;
+    background-color:rgb(0, 88, 122) ;
+    text-decoration: none;
+    padding: 10px 30px;
+    position: relative;
+    top: 550px;
+    left: 620px;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 20px;
+}
