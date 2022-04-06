@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Exo+2:wght@400;500;600;700&family=Merriweather+Sans:ital,wght@0,400;0,500;0,600;1,700;1,800&display=swap');
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;;
+*/
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #8bf3ffee;
+}
+.vg{
+    width: 650px;
+    height: 500px;
+    background-color: rgba(255, 255, 0, 0.863);
+    position: absolute;
+    top: 162px;
+    border-radius: 56% 81% 19% 0% / 26% 100% 55% 100%;
+}
+.vg2{
+    width: 400px;
+    height: 350px;
+    background-color: rgba(137, 43, 226, 0.863);
+    position: absolute;
+    top: -200px;
+    left: 960px;
+    border-radius: 26% 0% 0% 100% / 70% 41% 100% 100%;
+    border-bottom-right-radius: 50%;
+}
+.vg3{
+    width: 170px;
+    height: 170px;
+    background-color: rgba(255, 95, 122, 0.829);
+    border-radius: 80px;
+    position: absolute;
+    top: 400px;
+}
+.details{
+    display: flex;
+    position: relative;
+}
+.details img{
+    width: 180px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.details ul{
+    position: relative;
+}
+.details ul li{
+    list-style: none;
+
+}
+.details ul li a{
+    padding-left: 40px;
+    color: black;
+    font-size: 14px;
+    font-family: 'Rubik Moonrocks', cursive;
+    font: 600;
+    position: relative;
+    top: 50px;
+    text-decoration: none;
+}
+#search{
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+    top: -15px;
+    margin-top: 60px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border-style: none;
+
+}
+#search i{
+    position: relative;
+    left: -5px;
+}
+#shop{
+    position: relative;
+    left: 620px;
+    top: -10px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 7px 7px 5px 5px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(208, 226, 43);
+    background-blend-mode: color-burn;
+}
+.center{
+    position: relative;
+}
+.center h1{
+    font-size: 50px;
+    font: 600;
+    margin-right: 900px;
+    font-family: 'Merriweather Sans', sans-serif;
+    position: relative;
+    left: 70px;
+    top: 60px;
+}
+.center img{
+    width: 700px;
+    transform: rotate(-25deg);
+    position: relative;
+    top: -160px;
+    left: 350px;
+}
+.center p{
+    font-size: 20px;
+    margin-right: 800px;
+    position: relative;
+    left: 70px;
+    top: 70px;
+}
+.center button{
+    padding: 10px 40px;
+    position: relative;
+    top: -250px;
+    left: 70px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+}
+#kyrie{
+    width: 30%;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 420px;
+    left: 70px;
+    background-color: #8bf3ffee;
+    border-radius: 20px;
+}
+.end ul{
+    position: absolute;
+    top: 500px;
+    left: 1050px;
+    margin-bottom: 0px;
+    margin-left: -200px;
+}
+.end ul li{
+    list-style: none;  
+}
+.end ul li img{
+    width: 80px;
+    background-color: white;
+    margin-left: 8px;
+    border-radius: 20px;
+}
+
+#shoe{
+    position: absolute;
+    padding: 20px 5px 25px 5px;
+}
+#shoe:hover{
+    border: red 3px solid;
+}
+#shoe1{
+    position: absolute;
+    left: 200px;
+    padding: 16px 5px 25px 5px;
+}
+#shoe1:hover{
+    border: red 3px solid;
+}
+#shoe2{
+    position: absolute;
+    left: 300px;
+    padding: 18px 5px 25px 5px;
+}
+#shoe2:hover{
+    border: red 3px solid;
+}
+#shoe3{
+    position: absolute;
+    left: 100px;
+    padding: 20px 5px 25px 5px;
+}
+#shoe3:hover{
+    border: red 3px solid;
+}
+#nextdesgin{
+    position: absolute;
+    left: 600px;
+    top: 580px;
+    color: white;
+    background-color: chocolate;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    border-radius: 20px;
+}
