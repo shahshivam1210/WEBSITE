@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Girassol&family=Iceland&family=Londrina+Outline&family=Londrina+Solid&family=Nova+Square&display=swap');
+/*
+font-family: 'Chicle', cursive;
+font-family: 'Girassol', cursive;
+font-family: 'Iceland', cursive;
+font-family: 'Londrina Outline', cursive;
+font-family: 'Nova Square', cursive;
+font-family: 'Londrina Solid', cursive;
+*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(to right,rgb(41, 41, 41) 0%, gray 75%, rgb(255, 145, 0) 75%, rgb(255, 102, 0) 100%)
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 50px;
+    position: relative;
+    right: 200px;
+    top:15px;
+}
+#name{
+    font-family: 'Nova Square', cursive;
+    color: white;
+    position: relative;
+    left: 90px;
+    top: 15px;
+}
+
+nav{
+    display: flex;
+    gap: var(--gap, 30px);
+    position: relative;
+    top: 45px;
+}
+nav a{
+    color: white;
+    font-family: 'Iceland', cursive;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 70px;
+    text-align: center;
+}
+.top button{
+    position: relative;
+    top: 8px;
+    right: 40px;    
+    margin-top: 30px;
+    padding: 10px 40px;
+    color:black;
+    background-color: white;
+    border-color: black;
+    font-size: 20px;
+    border-width: 1px;
+    font-family: 'Iceland', cursive;
+    border-bottom-right-radius: 16px;
+}
+.bar{
+    width:280px;
+    height: 40px;
+    background-color: rgb(20, 18, 18);
+    position: relative;
+    top: 70px;
+    left: 100px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Iceland', cursive;
+    font-size: 15px;
+}
+#subbar{
+    position: relative;
+    left: 10px;
+    top: -3px;
+}
+#bar{
+    position: relative;
+    left: 100px;
+    top: 12px;
+}
+.subbar{
+    position: relative;
+    top: -10px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color:rgb(255, 102, 0);
+    margin-right: 190px;
+    margin-left: 10px;
+    margin-top: 1px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Iceland', cursive;
+}
+.text h1{
+    position: relative;
+    left: 100px;
+    top: 80px;
+    font-size: 100px;
+    margin-right: 800px;
+    font-family: 'Londrina Solid', cursive;
+    color: white
+}
+.text span{
+    color: white;
+    font-family: 'Londrina Outline', cursive;
+}
+.text p{
+    font-family: 'Iceland', cursive;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    margin-right: 800px;
+    color: white;
+}
+.text img{
+    position: absolute;
+    left: 800px;
+    width: 350px;  
+    top: 100px;
+}
+.text button{
+    position: relative;
+    left: 100px;
+    top: 150px;
+    font-size: 16px;
+    padding: 12px 35px ;
+    border-width: 1px;
+    font-family: 'Iceland', cursive;
+    border-bottom-right-radius: 16px;
+    border-color: black;
+    z-index: 130;
+}
+#b1{
+    background-color:rgb(255, 102, 0);
+    color: white;
+}
+#b2{
+    background-color: transparent;
+    border-color: rgb(255, 102, 0);
+}
+#nextdesgin{
+    position: relative;
+    left: 600px;
+    top: 150px;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+}
